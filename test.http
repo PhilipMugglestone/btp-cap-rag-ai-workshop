@@ -1,0 +1,48 @@
+GET http://localhost:4004/odata/v4/chat/Conversation
+Authorization: Basic bob:
+###
+GET http://localhost:4004/odata/v4/chat/Message
+Authorization: Basic bob:
+###
+POST http://localhost:4004/odata/v4/chat/getAiResponse
+Authorization: Basic bob:
+Content-Type: application/json
+
+{
+  "sessionId": "08b9370d-b074-471c-94dd-1621d40bfa54",
+  "content": "Please summarise in no more than 30 words who according to travel policy may travel in business class",
+  "timestamp": "2025-01-01T00:00:00.001Z"
+}
+###
+POST http://localhost:4004/odata/v4/chat/deleteChatSession
+Authorization: Basic bob:
+Content-Type: application/json
+
+{
+  "sessionId": "08b9370d-b074-471c-94dd-1621d40bfa54"
+}
+###
+GET http://localhost:4004/odata/v4/embedding/DocumentChunk
+Authorization: Basic bob:
+###
+GET http://localhost:4004/odata/v4/embedding/Files
+Authorization: Basic bob:
+###
+POST http://localhost:4004/odata/v4/embedding/Files
+Authorization: Basic bob:
+Content-Type: application/json
+
+{
+  "ID": "08b9370d-b074-471c-94dd-1621d45bfa12",
+  "mediaType": "application/pdf",
+  "fileName": "TravelExpensesPolicy.pdf",
+  "size": "450260",
+  "content": ""
+}
+###
+POST http://localhost:4004/odata/v4/embedding/deleteEmbeddings
+Authorization: Basic bob:
+Content-Type: application/json
+
+{
+}

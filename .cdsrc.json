@@ -1,0 +1,33 @@
+{
+  "requires": {
+    "[production]": {
+      "db": "hana",
+      "auth": "xsuaa"
+    },
+    "[hybrid]": {
+      "db": "hana",
+      "auth": "mocked"
+    },
+    "auth": {
+      "kind": "mocked"
+    },
+    "destinations": true,
+    "html5-repo": true,
+    "workzone": true,
+    "GenAIHub": {
+      "kind": "rest",
+      "credentials": {
+        "destination": "aicore",
+        "requestTimeout": "300000"
+      }
+    },
+    "GEN_AI_HUB_CONFIG": {
+      "DESTINATION_NAME": "GenAIHub",
+      "RESOURCE_GROUP": "default",
+      "EMBEDDING_MODEL_DEPLOYMENT_ID": 	"_ID_",
+      "CHAT_MODEL_DEPLOYMENT_ID": "_ID_",
+      "USE_HANA_EMBEDDING": false,
+      "EMBEDDING_MODEL_HANA": "SAP_NEB.20240715"
+    }
+  }
+}

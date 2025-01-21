@@ -1,1 +1,1 @@
-# btp-cap-rag-ai-workshop
+# BTP CAP RAG AI Workshop
