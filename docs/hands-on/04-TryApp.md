@@ -30,7 +30,7 @@ You should receive a response explaining that the *chatbot* application doesn't 
 
 <img src="./images/04-chat2.png"/>
 
-7. Return to the chat app and re-enter the prompt.
+7. Return to the chat app, refresh the browser and re-enter the prompt.
 ```
 Please summarise in no more than 30 words who according to travel policy may travel in business class
 ```
