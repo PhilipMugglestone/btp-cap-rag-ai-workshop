@@ -6,7 +6,7 @@
 
 ## Steps
 
-1. Launch the SAP BTP Cockpit by clicking on the following link [SAP BTP Cockpit](https://amer.cockpit.btp.cloud.sap/cockpit/?idp=freworkshop.accounts.ondemand.com).
+1. Launch the SAP BTP Cockpit by clicking on the following link [SAP BTP Cockpit](https://amer.cockpit.btp.cloud.sap/cockpit/?idp=freworkshop.accounts.ondemand.com). Open in a new tab to keep the hands-on steps visible.
 
 2. Enter your assigned username and password then press **Continue**.
 
