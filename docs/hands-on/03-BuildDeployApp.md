@@ -31,12 +31,16 @@
 <img src="./images/03-buildlobbycreatefullstack.png"/>
 
 8. Configure the new app as follows and then press **Create**.
-* Repository URL: [btp-cap-rag-ai-workshop](https://github.com/PhilipMugglestone/btp-cap-rag-ai-workshop.git)
+* Clone from Git: [btp-cap-rag-ai-workshop](https://github.com/PhilipMugglestone/btp-cap-rag-ai-workshop.git)
 
 ```
 https://github.com/PhilipMugglestone/btp-cap-rag-ai-workshop.git
 ```
 * Project Name: **btpcapragai** 
+
+* Development Stack: **Node.js**
+
+* Dev Space: **Full_Stack**
 
 <img src="./images/03-buildlobbycreatefullstack2.png"/>
 
